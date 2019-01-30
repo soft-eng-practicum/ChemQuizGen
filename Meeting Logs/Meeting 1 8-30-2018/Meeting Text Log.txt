@@ -1,0 +1,36 @@
+The generator is meant for use by professors to assist with the generation of quizzes and keys for the quizzes
+
+Program REQUIREMENTS (NECESSARY):
+* Produces all necessary information based on the selected answer, properly formatted
+* Produces a "Key" version of the question as well.
+
+Program BONUSES (SECOND GOALS) (In order of importance):
+1. Multiple formats
+2. Student use using random viable inputs.
+	- This is sortof like the original idea.  Where someone go online and answers questions
+3. Significant figures might be nice to work on.
+	- important, but can wait
+
+Notes:
+* Focus on meeting the requirements. Appearance and additional functions come last.
+* Prepare a good meeting time for next week so that it is reliable for everyone.
+* Use preliminary code from the professor to help.
+* He suggested the use of TextWrangler, but it seems to be a Mac program
+* TRY to document everything.
+* Doesn't need to be pretty, but needs to be formatted and useable, pretty comes later.
+
+Next Week Goals:
+* We need a sort of step by step goal sheet for the project
+* Timelines, benchmarks, goals, all needed.
+
+Timeline/Goals:
+1. Translate via program
+2. Decipher and Document
+3. Edit and Document
+
+Platform
+MEAN Stack
+MongoDB: Bruce
+Express.js: William
+AngularJS: Ben
+Node.js: Trivon
