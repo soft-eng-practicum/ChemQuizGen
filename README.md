@@ -10,7 +10,7 @@
 * [Discord](https://discord.gg/b4zqnQ7)
 
 ## Team Roles
-1. 
+1. **Austin Lomax** - *Data Modeler & Client liason* :sleeping:
 2. 
 3. 
 4. **Matthew Stiller** - *Architecture / Lead Programmer & Testing Lead*  :snake:
