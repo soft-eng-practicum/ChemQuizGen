@@ -11,7 +11,7 @@
 
 ## Team Roles
 1. **Austin Lomax** - *Data Modeler & Client liaison* :sleeping:
-2. **Farzin Valizadeh** - *Manager / Documentation Lead*  :wolf:
+2. **Farzin Valizadeh** - *Team Manager / Documentation Lead*  :wolf:
 3.
 4. **Matthew Stiller** - *Architecture / Lead Programmer & Testing Lead*  :snake:
 
