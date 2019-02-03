@@ -1,4 +1,4 @@
-# Catalyst Quartet - Chemistry Quiz Generator
+# (2019) Catalyst Quartet - Chemistry Quiz Generator
 
 ## Repo Location
 * [Catalyst Quartet Repo](https://github.com/soft-eng-practicum/ChemQuizGen)
@@ -17,7 +17,7 @@
 
 ---
 
-# FreeRadicals - Chemistry Quiz Generator
+# (2018) FreeRadicals - Chemistry Quiz Generator
 
 ## Repo Location
 [FreeRadicals Repo](https://github.com/GGC-SD/FreeRadicals)
