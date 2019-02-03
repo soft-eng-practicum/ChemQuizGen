@@ -15,6 +15,16 @@
 3.
 4. **Matthew Stiller** - *Architecture / Lead Programmer & Testing Lead*  :snake:
 
+## Quick Setup Instructions
+1. Install the edition of Node.js appropriate to your device from [this archive link](https://nodejs.org/dist/v8.11.4/). If you have a more recent version of Node.js installed already, it may be worth reverting to the 8.11.4 version to ensure compatability.
+2. [Setting up the backend.](https://github.com/soft-eng-practicum/ChemQuizGen/tree/master/ChemGenApp/BackEnd) Run the following commands in a terminal window in your `ChemQuizGen\ChemGenApp\BackEnd` directory:
+   - `npm install babel-cli@6.26.0`
+   - `npm install babel-preset-env@1.7.0`
+   - `npm install babel-watch@2.0.7`
+   - `npm install express@4.16.3`
+   - `npm install cors@2.8.4`
+   - All backend components should now have been successfully installed through Node.js' package manager "npm". To run a local development server, run the command `npm run dev` in a terminal window in this directory. Accessing the development server is done by navigating to `localhost:4000` in your web browser of choice.
+
 ---
 
 # (2018) FreeRadicals - Chemistry Quiz Generator
