@@ -10,3 +10,4 @@
 
 # backend
 /ChemGenApp/BackEnd/node_modules
+/ChemGenApp/BackEnd/package-lock.json
