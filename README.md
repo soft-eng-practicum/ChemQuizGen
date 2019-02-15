@@ -17,8 +17,8 @@
 
 ## Quick Setup Instructions
 1. Install the edition of Node.js appropriate to your device from [this archive link](https://nodejs.org/dist/v8.11.4/). If you have a more recent version of Node.js installed already, it may be worth reverting to the 8.11.4 version to ensure compatability.
-2. In the root directory `/ChemQuizGen/`run the terminal command `npm link`. (If you receive an error, ensure `package-lock.json`does not previously exist.)
-3. Going forward, you will be able to use the commands `npm run dev`and `ng serve`to start up the back- and front-end divisions of this web application at http://localhost:4200/.
+2. In the root directory `/ChemQuizGen/` run the terminal command `npm link`. (If you receive an error, ensure `package-lock.json` does not previously exist.)
+3. Going forward, you will be able to use the commands `npm run dev` and `ng serve` to start up the back- and front-end divisions of this web application at http://localhost:4200/.
 
 ---
 
