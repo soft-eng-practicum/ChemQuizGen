@@ -11,19 +11,22 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev": "babel-watch server.js"
+    "dev": "babel-watch server.js",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "6.1.7",
+    "@angular-devkit/build-angular": "^0.13.1",
     "@angular/cdk": "6.1.0",
     "@angular/common": "^6.1.0",
     "@angular/cli": "~6.2.1",
-    "@angular/compiler-cli": "^6.1.0",
     "@angular/compiler": "^6.1.0",
+    "@angular/compiler-cli": "^6.1.0",
     "@angular/core": "^6.1.0",
     "@angular/forms": "^6.1.0",
     "@angular/http": "^6.1.0",
+    "@angular/language-service": "^6.1.0",
     "@angular/material": "6.1.0",
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
@@ -62,5 +65,6 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "^2.9.2"
-  }
+  },
+  "heroku-run-build-script": true
 }
