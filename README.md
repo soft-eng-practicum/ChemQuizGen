@@ -13,7 +13,7 @@
 1. **Austin Lomax** - *Data Modeler & Client liaison* :sleeping:
 2. **Farzin Valizadeh** - *Team Manager / Documentation Lead*  :wolf:
 3. **Wesley McMillen** - *UI/UX modeler / Testing Lead* :link:
-4. **Matthew Stiller** - *Architecture / Lead Programmer & Testing Lead*  :snake:
+4. **Matthew Stiller** - *Architecture / Lead Programmer & Testing Lead* :snake:
 
 ## Quick Setup Instructions
 1. Install the edition of Node.js appropriate to your device from [this archive link](https://nodejs.org/dist/v8.11.4/). If you have a more recent version of Node.js installed already, it may be worth reverting to the 8.11.4 version to ensure compatability.
