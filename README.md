@@ -4,7 +4,7 @@
 * [Catalyst Quartet Repo](https://github.com/soft-eng-practicum/ChemQuizGen)
 
 ## Progress-Tracking Tools
-* TBA
+* JIRA
 
 ## Other Communication Tools
 * [Discord](https://discord.gg/b4zqnQ7)
