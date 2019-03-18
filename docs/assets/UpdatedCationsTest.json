@@ -1,0 +1,107 @@
+[
+  {
+    "symbol": "Li",
+    "name": "Lithium",
+    "mass": 6.9412,
+    "charge": 1,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Na",
+    "name": "Sodium",
+    "mass": 22.99,
+    "charge": 1,
+	"polyatomic":false
+  },
+  {
+    "symbol": "K",
+    "name": "Potassium",
+    "mass": 39.098,
+    "charge": 1,
+	"polyatomic":false
+  },
+  {
+    "symbol": "NH\u2084",
+    "name": "Ammonium",
+    "mass": 18.038,
+    "charge": 1,
+    "polyatomic": true
+  },
+  {
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "mass": 24.305,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Ca",
+    "name": "Calcium",
+    "mass": 40.078,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Ba",
+    "name": "Barium",
+    "mass": 137.328,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Zn",
+    "name": "Zinc",
+    "mass": 65.382,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Fe(II)",
+    "name": "Ferrous ion",
+    "mass": 55.845,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Cu",
+    "name": "Copper",
+    "mass": 63.546,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Al",
+    "name": "Aluminum",
+    "mass": 26.982,
+    "charge": 3,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Fe(III)",
+    "name": "Ferric ion",
+    "mass": 55.845,
+    "charge": 3,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Pb",
+    "name": "Lead",
+    "mass": 207.21,
+    "charge": 2,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Ag",
+    "name": "Silver",
+    "mass": 107.868,
+    "charge": 1,
+	"polyatomic":false
+  },
+  {
+    "symbol": "Sr",
+    "name": "Strontium",
+    "mass": 87.62,
+    "charge": 2,
+	"polyatomic":false
+  }
+]

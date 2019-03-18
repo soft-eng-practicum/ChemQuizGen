@@ -1,0 +1,74 @@
+[
+  {
+    "Li": {
+      "name": "Lithium",
+      "atomic mass": 1.0003,
+      "charge": 1
+    },
+    "Na": {
+      "name": "Sodium",
+      "atomic mass": 22.99,
+      "charge": 1
+    },
+    "K": {
+      "name": "Potassium",
+      "atomic mass": 39.098,
+      "charge": 1
+    },
+    "NH4": {
+      "name": "Ammonium",
+      "atomic mass": 18,
+      "charge": 1
+    },
+    "Mg": {
+      "name": "Magnesium",
+      "atomic mass": 24.035,
+      "charge": 2
+    },
+    "Ca": {
+      "name": "Calcium",
+      "atomic mass": 40.078,
+      "charge": 2
+    },
+    "Ba": {
+      "name": "Barium",
+      "atomic mass": 137.33,
+      "charge": 2
+    },
+    "Zn": {
+      "name": "Zinc",
+      "atomic mass": 65.38,
+      "charge": 2
+    },
+    "Fe2": {
+      "name": "Ferrous ion",
+      "atomic mass": 55.845,
+      "charge": 2
+    },
+    "Cu": {
+      "name": "Copper",
+      "atomic mass": 63.546,
+      "charge": 2
+    },
+    "Al": {
+      "name": "Aluminum",
+      "atomic mass": 26.982,
+      "charge": 3
+    },
+    "Fe3": {
+      "name": "Ferric ion",
+      "atomic mass": 55.845,
+      "charge": 3
+    },
+    "Pb": {
+      "name": "Lead",
+      "atomic mass": 207.2,
+      "charge": 2
+    },
+    "Ag": {
+      "name": "Silver",
+      "atomic mass": 107.87,
+      "charge": 1
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "Br": {
+      "name": "Bromine",
+      "atomic mass": 79.904,
+      "charge": -1
+    },
+    "I": {
+      "name": "Iodine",
+      "atomic mass": 126.9,
+      "charge": -1
+    },
+    "Cl": {
+      "name": "Chlorine",
+	  "atomic mass": 35.45,
+      "charge": -1
+    },
+    "NO3": {
+      "name": "Nitrate",
+      "atomic mass": 62,
+      "charge": -1
+    },
+    "CO3": {
+      "name": "Carbonate",
+      "atomic mass": 60.01,
+      "charge": -2
+    },
+    "CLO3": {
+      "name": "Chlorate",
+      "atomic mass": 83.447,
+      "charge": -1
+    },
+    "OH": {
+      "name": "Hydroxide",
+      "atomic mass": 17.01,
+      "charge": -1
+    },
+    "O2": {
+      "name": "Peroxide",
+      "atomic mass": 32,
+      "charge": -2
+    },
+    "PO4": {
+      "name": "Phosphate",
+      "atomic mass": 94.9714,
+      "charge": -3
+    },
+    "SO4": {
+      "name": "Sulfate",
+      "atomic mass": 96.06,
+      "charge": -2
+    },
+    "(Cr2O7)": {
+      "name": "Dichromate",
+      "atomic mass": 215.985,
+      "charge": -2
+    }
+  }
+]
