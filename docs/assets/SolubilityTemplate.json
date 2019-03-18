@@ -1,0 +1,234 @@
+[
+	{
+		"symbol": "Li",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 0,
+			"ClO3": 0,
+			"OH": 0,
+			"NO3": 0,
+			"PO4": 0,
+			"SO4": 0,
+			"Cr2O7": 0
+		}
+	},
+	{
+		"symbol": "Na",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 0,
+			"ClO3": 0,
+			"OH": 0,
+			"NO3": 0,
+			"PO4": 0,
+			"SO4": 0,
+			"Cr2O7": 0
+		}
+	},
+	{
+		"symbol": "K",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 0,
+			"ClO3": 0,
+			"OH": 0,
+			"NO3": 0,
+			"PO4": 0,
+			"SO4": 0,
+			"Cr2O7": 0
+		}
+	},
+	{
+		"symbol": "NH4",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 0,
+			"ClO3": 0,
+			"OH": 0,
+			"NO3": 0,
+			"PO4": 0,
+			"SO4": 0,
+			"Cr2O7": 0
+		}
+	},
+	{
+		"symbol": "Mg",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 0,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Ca",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 0,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Sr",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 1,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Ba",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 1,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Zn",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 0,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Fe(II)",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 0,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Cu",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 0,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Al",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 0,
+			"Cr2O7": 1
+		}
+	}, 
+	{
+		"symbol": "Fe(III)",
+		"solubility": {
+			"Br": 0,
+			"I": 0,
+			"Cl": 0,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 0,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 1,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Pb",
+		"solubility": {
+			"Br": 1,
+			"I": 1,
+			"Cl": 1,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 1,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 1,
+			"Cr2O7": 1
+		}
+	},
+	{
+		"symbol": "Ag",
+		"solubility": {
+			"Br": 1,
+			"I": 1,
+			"Cl": 1,
+			"CO3": 1,
+			"ClO3": 0,
+			"OH": 1,
+			"O2": 1,
+			"NO3": 0,
+			"PO4": 1,
+			"SO4": 1,
+			"Cr2O7": 1
+		}
+	}
+]
