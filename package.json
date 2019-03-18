@@ -8,7 +8,7 @@
     "ng": "ng",
     "start": "node heroku.js",
     "build": "ng build --prod --aot=false --build-optimizer=false",
-    "ghbuild": "ng build --prod --aot=false --build-optimizer=false --outputPath docs/",
+    "ghbuild": "ng build --prod --aot=false --build-optimizer=false --outputPath docs/ --base-href ChemQuizGen",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
