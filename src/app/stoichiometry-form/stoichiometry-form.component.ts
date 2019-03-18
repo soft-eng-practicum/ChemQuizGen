@@ -37,13 +37,15 @@ export class StoichiometryFormComponent implements OnInit {
     // Tells the elements object to retrieve the anion data and save it to this.cations
     this.elements.getAnions().subscribe(anions => {
       this.anions = anions;
+       console.log('anions loaded: ');
     });
 
     // Tells the elements object to retrieve the cation data and save it to this.cations
     this.elements.getCations().subscribe(cations => {
       this.cations = cations;
+      console.log('cations loaded: ');
     });
-    
+
     // Tells the elements object to retrieve the solubility test data and save it to this.solubilityTest
     this.elements.getSolubilityTest().subscribe(solubilityTest => {
       this.solubilityTest = solubilityTest;
@@ -98,10 +100,10 @@ export class StoichiometryFormComponent implements OnInit {
     if(this.solubilityTest[this.answer.cation1 + ''] === null) {
       this.answer.findSolubility = false;
     } else {
-      
+
       // Saves the data
       this.answer.cation1SolubilityData = this.solubilityTest[this.answer.cation1 + ''];
-      
+
       // Saves the cation2 solubility data if it can find it, sets the findSolubility variable to false otherwise, not loading solubility data then.
       if(this.solubilityTest[this.answer.cation2 + ''] === null) {
         this.answer.findSolubility = false;
@@ -131,7 +133,7 @@ export class StoichiometryFormComponent implements OnInit {
     console.log("The following data is printed for debug purposes, please disable this block in stoichiometry-form.component.ts if you are not debugging the system.");
     console.log("Finished determineSubscript()");
     /* */
-    
+
     // calculate the coefficients
     this.answer.balanceEquation();
 

@@ -14,11 +14,11 @@ const app = express();
 const router = express.Router();
 
 // This stuff is the code to grab the json files so that they can be sent to the Angular frontend
-const anionData = require('./ElementData/UpdatedAnionsTest.json');
-const cationData = require('./ElementData/UpdatedCationsTest.json');
-const solubility1Data = require('./ElementData/SolubilityTest.json'); // This is for testing different layouts of the solubility data
-const solubility2Data = require('./ElementData/SolubilityTest2.json'); // Further testing, but not used at the current time.
-const solubilityTemplate = require('./ElementData/SolubilityTemplate.json'); // Current "correct" data
+const anionData = require('./src/assets/UpdatedAnionsTest.json');
+const cationData = require('./src/assets/UpdatedCationsTest.json');
+const solubility1Data = require('./src/assets/SolubilityTest.json'); // This is for testing different layouts of the solubility data
+const solubility2Data = require('./src/assets/SolubilityTest2.json'); // Further testing, but not used at the current time.
+const solubilityTemplate = require('./src/assets/SolubilityTemplate.json'); // Current "correct" data
 //const elementData = require('path/to/elementData.json');
 
 app.use(cors());

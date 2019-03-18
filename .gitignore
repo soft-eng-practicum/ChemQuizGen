@@ -1,13 +1,4 @@
-# frontend
-/ChemGenApp/FrontEnd/e2e
-/ChemGenApp/FrontEnd/node_modules
-/ChemGenApp/FrontEnd/.editorconfig
-/ChemGenApp/FrontEnd/angular.json
-/ChemGenApp/FrontEnd/package.json
-/ChemGenApp/FrontEnd/package-lock.json
-/ChemGenApp/FrontEnd/tsconfig.json
-/ChemGenApp/FrontEnd/tslint.json
-
-# backend
-/ChemGenApp/BackEnd/node_modules
-/ChemGenApp/BackEnd/package-lock.json
+node_modules
+package-lock.json
+.vscode
+dist/
