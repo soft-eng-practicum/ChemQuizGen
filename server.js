@@ -3,9 +3,9 @@
 * Please give them a look if you want to know how to make a MEAN stack webpage.
 */
 
-import express from 'express';
-import bodyParser from 'body-parser';
-import cors from 'cors';
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 
 // import mongoose from 'mongoose';
 // the commented import requires a package which I have not installed.  It is used to access databases
