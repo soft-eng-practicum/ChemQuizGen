@@ -1,17 +1,19 @@
-<h1 align="center" >Chemistry Quiz Key Generator</h1>
+<h1 align="center">Chemistry Quiz Key Generator</h1>
 
-<div	>
-  At the moment this program calculates stochiometry to be used in limiting reactant problems involving monoatomic and polyatomic ions peforming replacement
-	reactions. Combustion and gas evolution are forthcoming. This program can be modified to be use in gas evolution reactions using metals and acids, and the reactions of elements. This is forthcoming.
+<div>
+	At the moment this program calculates stochiometry to be used in limiting reactant problems involving monoatomic and
+	polyatomic ions peforming replacement
+	reactions. Combustion and gas evolution are forthcoming. This program can be modified to be use in gas evolution
+	reactions using metals and acids, and the reactions of elements. This is forthcoming.
 	Input the data into the form and click Calculate to generate the answer key.
 </div>
 <br>
 <div class="form-container">
-	<app-stoichiometry-form class="left" [answer]="answer"></app-stoichiometry-form>
-	<app-answer-key [answer]="answer"></app-answer-key>
+	<a routerLink="/stochiometry"><button class="btn btn-success pull-right" > Add Customer</button></a>
 </div>
 <footer>
 	<small><em>Copyright &copy; 2019 Catalyst Quartet</em></small><br>
 	<script> document.write("This page was last modified on: " +
-			document.lastModified)</script>
-	</footer>
+			document.lastModified)
+	</script>
+</footer>

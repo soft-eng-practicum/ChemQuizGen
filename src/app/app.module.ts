@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { StoichiometryFormComponent } from './stoichiometry-form/stoichiometry-form.component';
 import { AnswerKeyComponent } from './answer-key/answer-key.component';
 import { ElementsService } from './services/elements.service';
+import { MolarityComponent } from './molarity/molarity.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     StoichiometryFormComponent,
-    AnswerKeyComponent
+    AnswerKeyComponent,
+    MolarityComponent
   ],
   imports: [
     BrowserModule,
