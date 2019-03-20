@@ -1,6 +1,4 @@
 # (2019) Catalyst Quartet - Chemistry Quiz Generator
-
-
 * This web application is currently hosted on [Heroku](https://chemquizgen.herokuapp.com/).
 * This web application is currently hosted on [GitHub Pages](https://soft-eng-practicum.github.io/ChemQuizGen).
 
