@@ -32,7 +32,6 @@ export class StoichiometryFormComponent implements OnInit {
 
   constructor(private formBuilder: FormBuilder, private elements: ElementsService) {
     this.createForm();
-    console.log(this.answer);
    }
 
   ngOnInit() {
