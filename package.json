@@ -12,8 +12,7 @@
     "ghbuild": "ng build --prod --aot=false --build-optimizer=false --outputPath docs/ --base-href ChemQuizGen",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "dev": "babel-watch server.js"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {

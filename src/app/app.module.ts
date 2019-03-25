@@ -26,6 +26,16 @@ const routes: Routes = [
     // this will redirect to the stoichiometry form.
     path: 'stoichiometry',
     component: StoichiometryFormComponent
+  },
+  {
+    // this will redirect to the molarity form.
+    path: 'molarity',
+    component: MolarityComponent
+  },
+  {
+    // this will redirect any unknown URLs to the index page.
+    path: '**',
+    component: IndexComponent
   }
 ];
 
