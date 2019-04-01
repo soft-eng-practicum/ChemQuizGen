@@ -5,7 +5,7 @@ export class AppPage {
     return browser.get('/');
   }
 
-  getParagraphText() {
+  getPageTitle() {
     return element(by.css('app-root h1')).getText();
   }
 }
@@ -19,7 +19,7 @@ describe('workspace-project App', () => {
 
   it('Should have the correct page title.', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Chemistry Quiz Key Generator', 'Page title is incorrect.');
+    expect(page.getPageTitle()).toEqual('Chemistry Quiz Key Generator', 'Page title is incorrect.');
   });
 
   it('Should have at least 1 button.', () => {

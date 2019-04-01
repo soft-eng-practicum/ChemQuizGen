@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { FormControl, FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-molarity',
@@ -11,5 +12,14 @@ export class MolarityComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  private formGroup: FormGroup = new FormGroup({
+    base: new FormControl(),
+    baseVol: new FormControl(),
+    baseMol: new FormControl(),
+    acid: new FormControl(),
+    acidVol: new FormControl(),
+    acidMol: new FormControl()
+  });
 
 }
