@@ -7,23 +7,22 @@
 
 <div class="form-container">
   <form [formGroup]="formGroup">
-    <select formControlName="cation1">
-      <option *ngFor="let cation of cations" value="{{ cation.symbol }}">{{ cation.symbol }}</option>
+    <select formControlName="base">
+      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
     </select>
-    <select formControlName="anion1">
-      <option *ngFor="let anion of anions" value="{{ anion.symbol }}">{{ anion.symbol }}</option>
+    <select formControlName="baseVol">
+      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
     </select>
-    <input formControlName="grams1" placeholder="Grams of First Compound">
+    <input formControlName="baseMol" placeholder="Molarity of Base">
     <br><br>
-    <select formControlName="cation2">
-      <option *ngFor="let cation of cations" value="{{ cation.symbol }}">{{ cation.symbol }}</option>
+    <select formControlName="acid">
+      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
     </select>
-    <select formControlName="anion2">
-      <option *ngFor="let anion of anions" value="{{ anion.symbol }}">{{ anion.symbol }}</option>
+    <select formControlName="acidVol">
+      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
     </select>
-    <input formControlName="grams2" placeholder="Grams of Second Compound">
+    <input formControlName="acidMol" placeholder="Molarity of Acid">
     <br><br>
-    <button mat-raised-button (click)="setAnswerKey()">Calculate</button>
+    <button mat-raised-button (click)="calculate()">Calculate</button>
   </form>
-  <app-answer-key [answer]="answer"></app-answer-key>
 </div>

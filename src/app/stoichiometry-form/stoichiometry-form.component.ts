@@ -168,6 +168,7 @@ export class StoichiometryFormComponent implements OnInit {
     this.answer.displayKey = true;
 
     // TODO: add functionality to update HTML file here.
+    
 
     // this.answer.stoichiometryGeneration();
     // this.answer.molecularNotationGeneration();
