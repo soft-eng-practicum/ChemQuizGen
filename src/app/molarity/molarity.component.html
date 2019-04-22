@@ -8,19 +8,15 @@
 <div class="form-container">
   <form [formGroup]="formGroup">
     <select formControlName="base">
-      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
+      <option *ngFor="let base of bases" value="{{ base }}">{{ base }}</option>
     </select>
-    <select formControlName="baseVol">
-      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
-    </select>
+    <input formControlName="baseVol" placeholder="Volume of Base">
     <input formControlName="baseMol" placeholder="Molarity of Base">
     <br><br>
     <select formControlName="acid">
-      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
+      <option *ngFor="let acid of acids" value="{{ acid }}">{{ acid }}</option>
     </select>
-    <select formControlName="acidVol">
-      <option *ngFor="let key of atomic_weights | keys" value="{{ key }}">{{ key }}</option>
-    </select>
+    <input formControlName="acidVol" placeholder="Volume of Acid">
     <input formControlName="acidMol" placeholder="Molarity of Acid">
     <br><br>
     <button mat-raised-button (click)="calculate()">Calculate</button>
