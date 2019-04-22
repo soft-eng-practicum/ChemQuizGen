@@ -21,4 +21,7 @@
     <br><br>
     <button mat-raised-button (click)="calculate()">Calculate</button>
   </form>
+  <ng-container *ngIf="calculated">
+    {{ limiter }} is the limiting reactant giving {{ mSalt }} moles, {{ gWater }} grams of water, and {{ gSalt }} grams of salt.
+  </ng-container>
 </div>

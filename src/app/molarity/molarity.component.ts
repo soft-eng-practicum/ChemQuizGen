@@ -209,20 +209,37 @@ export class MolarityComponent implements OnInit {
     console.log(formula_weight_salt)
 
     if (molSaltGivenR1 < molSaltGivenR2) {
-      var grams_of_salt = molSaltGivenR2 * formula_weight_salt
+      this.limiter = acid;
+      this.mSalt = molSaltGivenR1;
+      this.gSalt = molSaltGivenR2 * formula_weight_salt;
       //print("{} is the limiting reactant giving {} moles and {} grams of salt". format(Acid,mol_salt_given_R1, grams_of_salt))
     } else {
-      var grams_of_salt = molSaltGivenR2 * formula_weight_salt
+      this.limiter = base;
+      this.mSalt = molSaltGivenR2;
+      this.gSalt = molSaltGivenR2 * formula_weight_salt;
       //print("{} is the limiting reactant giving {} moles and {} grams of salt". format(Base,mol_salt_given_R2, grams_of_salt))
     }
     if (molWaterGivenR1 < molWaterGivenR1) {
-      var grams_of_water = molWaterGivenR1 * formula_weight_water
+      this.limiter = acid;
+      this.mWater = molWaterGivenR1;
+      this.gWater = molWaterGivenR1 * formula_weight_water;
       //print("{} is the limiting reactant giving {} moles and {} grams of water". format(Acid,mol_water_given_R1, grams_of_water))
     } else {
-      grams_of_water = molWaterGivenR2 * formula_weight_water
+      this.limiter = base;
+      this.mWater = molWaterGivenR2;
+      this.gWater = molWaterGivenR2 * formula_weight_water;
       //print("{} is the limiting reactant giving {} moles and {} grams of water". format(Base,mol_water_given_R2, grams_of_water))
     }
+
+    this.calculated = true;
   }
+
+  public limiter: any;
+  public gSalt: any;
+  public mSalt: any;
+  public gWater: any;
+  public mWater: any;
+  public calculated: boolean = false;
 
   private createForm(): void {
     this.formGroup = this.formBuilder.group({
