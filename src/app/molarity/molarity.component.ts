@@ -48,17 +48,11 @@ export class MolarityComponent implements OnInit {
 
   public calculate(): void {
     var ConjugateBase = this.formGroup.get("base").value;
-    //"So4"; temprary hard code untill input is created
     var ConjugateAcid = this.formGroup.get("acid").value;
-    //"Na" same
     var volR1 = this.formGroup.get("baseVol").value;
-    // 100;
     var volR2 = this.formGroup.get("baseMol").value;
-    //100;
-    var MofR1 = this.formGroup.get("acidVol").value;
-    //2.0;
-    var MofR2 = this.formGroup.get("acidMol").value;
-    //1.5;
+    var molR1 = this.formGroup.get("acidVol").value;
+    var molR2 = this.formGroup.get("acidMol").value;
 
     //discover Acid
     var acid, base;
@@ -179,13 +173,13 @@ export class MolarityComponent implements OnInit {
     //output this properly later with proper formating
     //console.log("The balanced reactions is: \n\n {0}{1}  + {2}{3} --> {6}{4}{2}{5}{0} + {7}H2O" .format(water[3], Acid, water[4], Base, cation, water[2],water[5], water[6] )) # --> {}{}{}{}   +  H2O"
 
-    var molofR1 = MofR1 * volR1 / 1000;
-    var molofR2 = MofR2 * volR2 / 1000;
+    molR1 = molR1 * volR1 / 1000;
+    molR2 = molR2 * volR2 / 1000;
 
-    var molSaltGivenR1 = molofR1 * water[5] / water[3];
-    var molWaterGivenR1 = molofR1 * water[6] / water[3];
-    var molSaltGivenR2 = molofR1 * water[5] / water[4];
-    var molWaterGivenR2 = molofR1 * water[6] / water[4];
+    var molSaltGivenR1 = molR1 * water[5] / water[3];
+    var molWaterGivenR1 = molR1 * water[6] / water[3];
+    var molSaltGivenR2 = molR2 * water[5] / water[4];
+    var molWaterGivenR2 = molR2 * water[6] / water[4];
 
     var atomic_weights = {
       "He": 4.002, "Li": 6.94, "Be": 9.012,
