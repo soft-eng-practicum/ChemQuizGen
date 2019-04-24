@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-import { AnswerKey } from './models/answer-key.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +8,7 @@ import { AnswerKey } from './models/answer-key.model';
 })
 export class AppComponent implements OnInit {
 
-  // Holds data for child components
-  private answer: AnswerKey = new AnswerKey();
+  constructor(private router: Router) { };
 
   ngOnInit() {
   }

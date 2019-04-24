@@ -832,7 +832,7 @@ export class AnswerKey {
   // This method is used to generate the strings using the percision
   // required of a chemistry numbers app
   private precision(value: Number): String {
-    console.log(value.toPrecision(this.sigFigs));
+    // console.log(value.toPrecision(this.sigFigs));
     return value.toPrecision(this.sigFigs);
   }
 

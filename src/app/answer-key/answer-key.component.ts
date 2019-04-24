@@ -10,9 +10,11 @@ import { AnswerKey } from '../models/answer-key.model';
 export class AnswerKeyComponent implements OnInit {
 
   // @Input needed so answer can be seen by both components
-  @Input() private answer: AnswerKey;
+  // the variable below is needed to conditionally show the HTML answer key element.
+  @Input() private answer;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }

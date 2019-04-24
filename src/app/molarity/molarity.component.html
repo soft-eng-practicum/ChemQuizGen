@@ -1,0 +1,27 @@
+<h1 align="center">Chemistry Quiz Key Generator</h1>
+<h2 align="center">Molarity Form</h2>
+
+<div>
+    Input a conjugate base-acid pair, volumes, and molarity values of each, then press "Calculate".
+</div>
+
+<div class="form-container">
+  <form [formGroup]="formGroup">
+    <select formControlName="base">
+      <option *ngFor="let base of bases" value="{{ base }}">{{ base }}</option>
+    </select>
+    <input formControlName="baseVol" placeholder="Volume of Base">
+    <input formControlName="baseMol" placeholder="Molarity of Base">
+    <br><br>
+    <select formControlName="acid">
+      <option *ngFor="let acid of acids" value="{{ acid }}">{{ acid }}</option>
+    </select>
+    <input formControlName="acidVol" placeholder="Volume of Acid">
+    <input formControlName="acidMol" placeholder="Molarity of Acid">
+    <br><br>
+    <button mat-raised-button (click)="calculate()">Calculate</button>
+  </form>
+  <ng-container *ngIf="calculated">
+    {{ limiter }} is the limiting reactant giving {{ mSalt }} moles, {{ gWater }} grams of water, and {{ gSalt }} grams of salt.
+  </ng-container>
+</div>

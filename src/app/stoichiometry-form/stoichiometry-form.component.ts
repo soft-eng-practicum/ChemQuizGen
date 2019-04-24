@@ -13,7 +13,8 @@ import { ElementsService } from '../services/elements.service';
 export class StoichiometryFormComponent implements OnInit {
 
   // @Input needed so answer can be seen by both components
-  @Input() private answer: AnswerKey;
+  // here, we create the new answer key object in order for it to be filled.
+  @Input() private answer: AnswerKey = new AnswerKey();
 
   // Declares form group attached to form
   private formGroup: FormGroup = new FormGroup({
@@ -37,13 +38,11 @@ export class StoichiometryFormComponent implements OnInit {
     // Tells the elements object to retrieve the anion data and save it to this.cations
     this.elements.getAnions().subscribe(anions => {
       this.anions = anions;
-       console.log('anions loaded: ');
     });
 
     // Tells the elements object to retrieve the cation data and save it to this.cations
     this.elements.getCations().subscribe(cations => {
       this.cations = cations;
-      console.log('cations loaded: ');
     });
 
     // Tells the elements object to retrieve the solubility test data and save it to this.solubilityTest
@@ -167,6 +166,10 @@ export class StoichiometryFormComponent implements OnInit {
 
     // display the answer key
     this.answer.displayKey = true;
+
+    // TODO: add functionality to update HTML file here.
+    
+
     // this.answer.stoichiometryGeneration();
     // this.answer.molecularNotationGeneration();
 

@@ -1,19 +1,38 @@
-<form [formGroup]="formGroup">
-  <select formControlName="cation1">
-        <option *ngFor="let cation of cations" value="{{ cation.symbol }}">{{ cation.symbol }}</option>
-  </select>
-  <select formControlName="anion1">
-    <option *ngFor="let anion of anions" value="{{ anion.symbol }}">{{ anion.symbol }}</option>
-  </select>
-  <input formControlName="grams1" placeholder="Grams of First Compound">
-  <br><br>
-  <select formControlName="cation2">
+<h1 align="center">Chemistry Quiz Key Generator</h1>
+<h2 align="center">Stoichiometry Form</h2>
+
+<div>
+  At the moment, this program calculates stoichiometry, to be used in limiting-reactant problems, involving monoatomic
+  and
+  polyatomic ions peforming replacement reactions. Input the data into the form and click Calculate to generate the
+  answer key.
+  (Combustion and gas-evolution reactions using metals and acids may be added in a future update.)
+</div>
+
+<div class="form-container">
+  <form [formGroup]="formGroup">
+    <select formControlName="cation1">
       <option *ngFor="let cation of cations" value="{{ cation.symbol }}">{{ cation.symbol }}</option>
-  </select>
-  <select formControlName="anion2">
+    </select>
+    <select formControlName="anion1">
       <option *ngFor="let anion of anions" value="{{ anion.symbol }}">{{ anion.symbol }}</option>
-  </select>
-  <input formControlName="grams2" placeholder="Grams of Second Compound">
-  <br><br>
-  <button mat-raised-button (click)="setAnswerKey()">Calculate</button>
-</form>
+    </select>
+    <input formControlName="grams1" placeholder="Grams of First Compound">
+    <br><br>
+    <select formControlName="cation2">
+      <option *ngFor="let cation of cations" value="{{ cation.symbol }}">{{ cation.symbol }}</option>
+    </select>
+    <select formControlName="anion2">
+      <option *ngFor="let anion of anions" value="{{ anion.symbol }}">{{ anion.symbol }}</option>
+    </select>
+    <input formControlName="grams2" placeholder="Grams of Second Compound">
+    <br><br>
+    <button mat-raised-button (click)="setAnswerKey()">Calculate</button>
+  </form>
+  <app-answer-key [answer]="answer"></app-answer-key>
+  
+  <ng-container *ngIf="answer.displayKey"> 
+    Calculate the limiting reactant, excess reactant and theoretical yield in grams when:
+    {{ answer.grams1 }} g of {{ answer.reactant1 }} reacts with {{ answer.grams2 }} g of {{ answer.reactant2 }}
+     according to the following equation: <ng-container *ngIf="answer.reactant1Coefficient > 1">{{ answer.reactant1Coefficient }}</ng-container>{{ answer.reactant1 }}{{ answer.reactant1Solubility }} + <ng-container *ngIf="answer.reactant2Coefficient > 1">{{ answer.reactant2Coefficient }}</ng-container>{{ answer.reactant2 }}{{ answer.reactant2Solubility }} => <ng-container *ngIf="answer.product1Coefficient > 1">{{ answer.product1Coefficient }}</ng-container>{{ answer.product1 }}{{ answer.product1Solubility }} + <ng-container *ngIf="answer.product2Coefficient > 1">{{ answer.product2Coefficient }}</ng-container>{{ answer.product2 }}{{ answer.product2Solubility }}</ng-container>
+</div>

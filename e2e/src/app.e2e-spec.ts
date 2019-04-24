@@ -1,4 +1,14 @@
-import { AppPage } from './app.po';
+import { browser, by, element } from 'protractor';
+
+export class AppPage {
+  navigateTo() {
+    return browser.get('/');
+  }
+
+  getPageTitle() {
+    return element(by.css('app-root h1')).getText();
+  }
+}
 
 describe('workspace-project App', () => {
   let page: AppPage;
@@ -7,8 +17,13 @@ describe('workspace-project App', () => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('Should have the correct page title.', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to FrontEnd!');
+    expect(page.getPageTitle()).toEqual('Chemistry Quiz Key Generator', 'Page title is incorrect.');
   });
+
+  it('Should have at least 1 button.', () => {
+    page.navigateTo();
+    // TODO
+  })
 });
