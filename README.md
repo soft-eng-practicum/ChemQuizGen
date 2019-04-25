@@ -4,11 +4,11 @@
 
 ## License
 * MIT License [Google Doc](https://drive.google.com/open?id=1raKZr54d-6caTU-Hx67nj91rl7CacH5h).
-* Signed Spring 2019 Intellectual Property Agreement[Google Doc](https://drive.google.com/open?id=1jRE3QpmgM4ImHpv7EjaZu4q-gAcq3FZq).
+* Signed Spring 2019 Intellectual Property Agreement [Google Doc](https://drive.google.com/open?id=1jRE3QpmgM4ImHpv7EjaZu4q-gAcq3FZq).
 
 
 # CREATE Spring 2019
-* Survey:[Google Survey](https://docs.google.com/forms/d/1wQr5SVbleCXlhbQg6kwvUdjnVkz0h1CIGyRJG6WjxWQ/edit).
+* Survey: [Google Survey](https://docs.google.com/forms/d/1wQr5SVbleCXlhbQg6kwvUdjnVkz0h1CIGyRJG6WjxWQ/edit).
 
 ## Repo Location
 * [Catalyst Quartet Repo](https://github.com/soft-eng-practicum/ChemQuizGen)
@@ -27,7 +27,8 @@
 
 ## Quick Setup Instructions
 1. Install the edition of Node.js appropriate to your device from [this archive link](https://nodejs.org/dist/v8.11.4/). If you have a more recent version of Node.js installed already, it may be worth reverting to the 8.11.4 version to ensure compatibility.
-2. In the root directory `/ChemQuizGen/` run the terminal command `npm link`. (If you receive an error, ensure `package-lock.json` does not previously exist.)
+2. In the root directory `/ChemQuizGen/` run the terminal command `npm link`. (If you receive an error,
+  ensure `package-lock.json` does not previously exist.)
 3. Going forward, you will be able to use the command `ng serve` to start up a live development server of this web application
 on your computer at http://localhost:4200/.
 4. To trigger a new push to Heroku, build the website locally using `ng build`, verify it works, and then `git push heroku master`.
