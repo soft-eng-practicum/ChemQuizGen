@@ -9,7 +9,7 @@
 
 # CREATE Spring 2019
 * Survey: [Google Survey](https://docs.google.com/forms/d/1wQr5SVbleCXlhbQg6kwvUdjnVkz0h1CIGyRJG6WjxWQ/edit).
-* Survey Result: [Link](https://drive.google.com/open?id=1kXgrJe967_hgEjYSGliA9X9P-kJskm-6).
+* Survey Result:  [Link](https://drive.google.com/open?id=1kXgrJe967_hgEjYSGliA9X9P-kJskm-6).
 
 ## Repo Location
 * [Catalyst Quartet Repo](https://github.com/soft-eng-practicum/ChemQuizGen)
@@ -27,12 +27,19 @@
 4. **Matthew Stiller** - *Architecture / Lead Programmer & Testing Lead* :snake:
 
 ## Quick Setup Instructions
+
+**Local Deploy**
 1. Install the edition of Node.js appropriate to your device from [this archive link](https://nodejs.org/dist/v8.11.4/). If you have a more recent version of Node.js installed already, it may be worth reverting to the 8.11.4 version to ensure compatibility.
 2. In the root directory `/ChemQuizGen/` run the terminal command `npm link`. (If you receive an error,
   ensure `package-lock.json` does not previously exist.)
 3. Going forward, you will be able to use the command `ng serve` to start up a live development server of this web application
 on your computer at http://localhost:4200/.
-4. To trigger a new push to Heroku, build the website locally using `ng build`, verify it works, and then `git push heroku master`.
+
+**GitHub Pages**
+1. To update GitHub Pages within Master branch use `Npm run -script ghubuild`. this command will update the Doc folder which is associated with GitHub Pages.
+
+**Heroku**
+ 1. To trigger a new push to Heroku, build the website locally using `ng build`, verify it works, and then `git push heroku master`.
 
 ---
 
