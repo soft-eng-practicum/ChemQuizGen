@@ -4,7 +4,7 @@
 
 ## License
 * MIT License [Google Doc](https://drive.google.com/open?id=1raKZr54d-6caTU-Hx67nj91rl7CacH5h).
-* Signed Spring 2019 Intellectual Property Agreement [Google Doc](https://drive.google.com/open?id=1jRE3QpmgM4ImHpv7EjaZu4q-gAcq3FZq).
+
 
 
 # CREATE Spring 2019
