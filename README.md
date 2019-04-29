@@ -9,7 +9,7 @@
 
 # CREATE Spring 2019
 * Survey: [Google Survey](https://docs.google.com/forms/d/1wQr5SVbleCXlhbQg6kwvUdjnVkz0h1CIGyRJG6WjxWQ/edit).
-* Survey Result:  [Link](https://drive.google.com/open?id=1kXgrJe967_hgEjYSGliA9X9P-kJskm-6).
+* Survey Result:  [Google Sheets](https://drive.google.com/open?id=1KADeJg_mOEJfJatOnncZp4umzG-IeeyqzLGFz7o3ol4).
 
 ## Repo Location
 * [Catalyst Quartet Repo](https://github.com/soft-eng-practicum/ChemQuizGen)
