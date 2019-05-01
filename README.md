@@ -38,9 +38,6 @@ on your computer at http://localhost:4200/.
 **GitHub Pages**
 1. To update GitHub Pages within Master branch use `Npm run -script ghubuild`. this command will update the Doc folder which is associated with GitHub Pages.
 
-**Heroku**
- 1. To trigger a new push to Heroku, build the website locally using `ng build`, verify it works, and then `git push heroku master`.
-
 ---
 
 # (2018) FreeRadicals - Chemistry Quiz Generator
