@@ -36,7 +36,7 @@
 on your computer at http://localhost:4200/.
 
 **GitHub Pages**
-1. To update GitHub Pages within Master branch use `Npm run -script ghubuild`. this command will update the Doc folder which is associated with GitHub Pages.
+1. To update GitHub Pages within Master branch use `npm run -script ghbuild`. this command will update the Doc folder which is associated with GitHub Pages.
 
 ---
 
