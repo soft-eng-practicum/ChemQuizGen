@@ -52,3 +52,12 @@
     {{ answer.grams1 }} g of {{ answer.reactant1 }} reacts with {{ answer.grams2 }} g of {{ answer.reactant2 }}
      according to the following equation: <ng-container *ngIf="answer.reactant1Coefficient > 1">{{ answer.reactant1Coefficient }}</ng-container>{{ answer.reactant1 }}{{ answer.reactant1Solubility }} + <ng-container *ngIf="answer.reactant2Coefficient > 1">{{ answer.reactant2Coefficient }}</ng-container>{{ answer.reactant2 }}{{ answer.reactant2Solubility }} => <ng-container *ngIf="answer.product1Coefficient > 1">{{ answer.product1Coefficient }}</ng-container>{{ answer.product1 }}{{ answer.product1Solubility }} + <ng-container *ngIf="answer.product2Coefficient > 1">{{ answer.product2Coefficient }}</ng-container>{{ answer.product2 }}{{ answer.product2Solubility }}</ng-container>
 </div>
+
+<br>
+
+<footer>
+ <small><em>Copyright &copy; 2019 Catalyst Quartet</em></small><br>
+ <script>
+   document.write("This page was last modified on: " + document.lastModified)
+ </script>
+</footer>
