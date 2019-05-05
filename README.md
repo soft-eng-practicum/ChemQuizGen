@@ -31,7 +31,8 @@
 1. Install the edition of Node.js appropriate to your device from [this archive link](https://nodejs.org/dist/v8.11.4/). If you have a more recent version of Node.js installed already, it may be worth reverting to the 8.11.4 version to ensure compatibility.
 2. In the root directory `/ChemQuizGen/` run the terminal command `npm link`. (If you receive an error,
   ensure `package-lock.json` does not previously exist.)
-3. Going forward, you will be able to use the command `ng serve` to start up a live development server of this web application
+3. Additionally, run the command `npm i -g @angular/cli@6.2.1` to install the Angular CLI for command-line usage.
+4. Going forward, you will be able to use the command `ng serve` to start up a live development server of this web application
 on your computer at http://localhost:4200/.
 
 **GitHub Pages**
